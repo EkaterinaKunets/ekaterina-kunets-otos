@@ -1,1 +1,1 @@
-# ekaterina-kunets-otos
+# ekaterina-kunets-otus
