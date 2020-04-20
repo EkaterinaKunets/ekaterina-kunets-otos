@@ -37,10 +37,10 @@ const sendAsyncRequests = async (num) => {
 if (Number.isInteger(num) && num % 1 === 0 && num > 0) {
     switch (type) {
         case 'sync':
-            sendSyncRequests(num).then(() => console.log(`${ num } sync request were sent`));
+            sendSyncRequests(num).then(() => console.log(`${ num } sync request has been sent`));
             break;
         case 'async':
-            sendAsyncRequests(num).then(() => console.log(`${ num } async request were sent`));
+            sendAsyncRequests(num).then(() => console.log(`${ num } async request has been sent`));
             break;
         default:
             console.error('Enter sync or async request type');
